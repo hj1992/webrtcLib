@@ -1,0 +1,101 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.novoda.bintray-release'
+////
+//publish {
+//    repoName = 'testLib'//仓库名
+//    userOrg = 'huju1983my'//用户名
+//    groupId = 'com.gwecom.webrtcmodule'//生成的gradle依赖前缀。
+//    artifactId = 'webrtcLib'//项目名
+//    publishVersion = '1.0.0' //版本号
+//    desc = 'test lib' //描述
+//    website = ''
+////    repository = '你项目的github 地址，有 .git'
+//}
+//apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven'
+uploadArchives {
+    repositories.mavenDeployer {
+        def mavenDirPath = file('D:\\gitprogram\\gnygamepro') // 本地存放目录(自行选择)，可放在gradle.properties文件中引用
+        repository(url: "file://${mavenDirPath.absolutePath}") // 必须双引号，单引号不会转义$
+        pom.project {
+            groupId "com.gwecom.webrtcmodule" // 可以随意取，一般取包名
+            artifactId "webrtcmodule" // 可以随意取，一般取库的名字
+            version "1.0.0" // 版本号
+        }
+    }
+}
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi-v7a'//, 'x86', 'arm64-v8a' // ,'x86_64', 'armeabi'
+        }
+        repositories {
+            flatDir {
+                dirs '../webrtcmodule/libs', 'libs'  // aar目录
+            }
+        }
+        externalNativeBuild {
+            cmake {
+                // cppFlags "-frtti -fexceptions -D__STDC_FORMAT_MACROS -std=c++11"
+                //arguments = ['-DANDROID_STL=c++_shared']
+                arguments = ['-DANDROID_STL=c++_static']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            android.libraryVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "webrtcmodule_v${defaultConfig.versionName}.aar"
+                }
+            }
+        }
+        debug {
+            jniDebuggable true
+            debuggable true
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path file('CMakeLists.txt')
+//            version "3.10.2"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //implementation 'org.webrtc:google-webrtc:1.0.20642'
+    implementation 'fi.vtt.nubomedia:utilities-android:1.0.1@aar'
+    implementation files('libs/libwebrtc.jar')
+//    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.alibaba:fastjson:1.1.62.android'
+}

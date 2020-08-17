@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "E:\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\AndroidSDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\gitprogram\\anygamepro\\webrtcmodule\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\gitprogram\\anygamepro\\webrtcmodule\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "webrtcmodule-lib-Debug-armeabi-v7a": {
+      "artifactName": "webrtcmodule-lib",
+      "buildCommand": "E:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\gitprogram\\anygamepro\\webrtcmodule\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target webrtcmodule-lib",
+      "abi": "armeabi-v7a",
+      "output": "D:\\gitprogram\\anygamepro\\webrtcmodule\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libwebrtcmodule-lib.so"
+    }
+  }
+}

@@ -1,0 +1,351 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/gitprogram/anygamepro/webrtcmodule",
+  "buildDirectory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\gitprogram\\anygamepro\\webrtcmodule\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003dE:\\AndroidSDK\\ndk-bundle",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\AndroidSDK\\ndk-bundle",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DANDROID_STL\u003dc++_static"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: Check for working C compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: Check for working CXX compiler: E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","E:/AndroidSDK/ndk-bundle/build/cmake/android.toolchain.cmake","E:/AndroidSDK/ndk-bundle/build/cmake/platforms.cmake","E:/AndroidSDK/ndk-bundle/build/cmake/android.toolchain.cmake"]},{"isCMake":false,"isTemporary":true,"sources":[".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx",".externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"E:/AndroidSDK/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/gitprogram/anygamepro/webrtcmodule","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a","name":"Project","sourceDirectory":"D:/gitprogram/anygamepro/webrtcmodule","targets":[{"artifacts":["D:/gitprogram/anygamepro/webrtcmodule/build/intermediates/cmake/debug/obj/armeabi-v7a/libwebrtcmodule-lib.so"],"buildDirectory":"D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17","defines":["ANDROID","DEBUG_WEBRTC","webrtcmodule_lib_EXPORTS"],"includePath":[{"path":"D:/gitprogram/anygamepro/webrtcmodule/src/main/jni"},{"path":"D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/janus"},{"path":"D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/depends"},{"path":"D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/depends/openssl/include"},{"path":"D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/depends/websockets/include"}],"isGenerated":false,"language":"CXX","sources":["src/main/jni/cJSON.cpp","src/main/jni/signalingsession.cpp","src/main/jni/WebrtcClient.cpp","src/main/jni/WebrtcDef.cpp","src/main/jni/webrtcmodule.cpp","src/main/jni/jniHelper.cpp","src/main/jni/janus/CWebSocket.cpp","src/main/jni/janus/timer.cpp"]}],"fullName":"libwebrtcmodule-lib.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"..\\..\\..\\..\\libs\\armeabi-v7a\\libjingle_peerconnection_so.so ..\\..\\..\\..\\libs\\armeabi-v7a\\libboost_date_time-clang-mt-a32-1_70.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libboost_filesystem-clang-mt-a32-1_70.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libboost_system-clang-mt-a32-1_70.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libboost_thread-clang-mt-a32-1_70.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libwebsockets.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libssl.a ..\\..\\..\\..\\libs\\armeabi-v7a\\libcrypto.a -llog -lmediandk -landroid -lEGL -lGLESv2 -lGLESv3 -latomic -lm","linkerLanguage":"CXX","name":"webrtcmodule-lib","sourceDirectory":"D:/gitprogram/anygamepro/webrtcmodule","sysroot":"E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

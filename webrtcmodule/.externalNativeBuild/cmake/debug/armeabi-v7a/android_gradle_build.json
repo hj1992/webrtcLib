@@ -1,0 +1,76 @@
+{
+  "stringTable": {
+    "0": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=c++17",
+    "2": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17"
+  },
+  "buildFiles": [
+    "E:\\AndroidSDK\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "E:\\AndroidSDK\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "D:\\gitprogram\\anygamepro\\webrtcmodule\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\gitprogram\\anygamepro\\webrtcmodule\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "webrtcmodule-lib-Debug-armeabi-v7a": {
+      "buildCommand": "E:\\AndroidSDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build D:\\gitprogram\\anygamepro\\webrtcmodule\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target webrtcmodule-lib",
+      "buildType": "debug",
+      "toolchain": "3180433301",
+      "abi": "armeabi-v7a",
+      "artifactName": "webrtcmodule-lib",
+      "files": [
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\cJSON.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\signalingsession.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\WebrtcClient.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\WebrtcDef.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\webrtcmodule.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\jniHelper.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\janus\\CWebSocket.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\janus\\timer.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "D:\\gitprogram\\anygamepro\\webrtcmodule\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libwebrtcmodule-lib.so"
+    }
+  },
+  "toolchains": {
+    "3180433301": {
+      "cppCompilerExecutable": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

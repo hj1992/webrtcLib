@@ -1,0 +1,49 @@
+[
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\cJSON.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\cJSON.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/cJSON.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\signalingsession.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\signalingsession.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/signalingsession.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\WebrtcClient.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\WebrtcClient.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/WebrtcClient.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\WebrtcDef.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\WebrtcDef.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/WebrtcDef.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\webrtcmodule.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\webrtcmodule.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/webrtcmodule.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\jniHelper.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\jniHelper.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/jniHelper.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\janus\\CWebSocket.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\janus\\CWebSocket.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/janus/CWebSocket.cpp"
+},
+
+{
+  "directory": "D:/gitprogram/anygamepro/webrtcmodule/.externalNativeBuild/cmake/debug/armeabi-v7a",
+  "command": "E:\\AndroidSDK\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=E:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DANDROID -DDEBUG_WEBRTC -Dwebrtcmodule_lib_EXPORTS -I../../../../src/main/jni -I../../../../src/main/jni/janus -I../../../../src/main/jni/depends -I../../../../src/main/jni/depends/openssl/include -I../../../../src/main/jni/depends/websockets/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -std=c++17 -o CMakeFiles\\webrtcmodule-lib.dir\\src\\main\\jni\\janus\\timer.cpp.o -c D:\\gitprogram\\anygamepro\\webrtcmodule\\src\\main\\jni\\janus\\timer.cpp",
+  "file": "D:/gitprogram/anygamepro/webrtcmodule/src/main/jni/janus/timer.cpp"
+}
+]
